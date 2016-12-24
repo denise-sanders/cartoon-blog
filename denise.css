@@ -2,12 +2,71 @@
 	The best stylesheets are simple.
 */
 
+/*
+	mint green: 42f492
+	blue: 73D1E8
+	purple: BD7FFF
+	red: FF614C
+	orange: FFE135
+*/
+
 html, body{
     /*width: 680px;*/
 	width: 62%;
     margin: auto;
     font-family: 'Tangerine', sans-serif;
     line-height: 1.45;
-    color: #5A5A5A; /* A2FF8C */
-	background-color: A2FF8C;
+    background-color: #42f492;
+}
+
+p, a{
+	color: #5A5A5A; /* A2FF8C */
+	text-align: center;
+	font-family: 'Tangerine', sans-serif;
+	font-size: 30px;
+}
+
+p{
+	padding-top: 3%;
+}
+
+div{
+	border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #73D1E8;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+#comicContainer{
+	
+	background-color: #FFFFFF;
+}
+
+img{
+	width: 95%;
+	height: 95%;
+	padding: 2.5%;
 }
