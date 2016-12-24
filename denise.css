@@ -8,5 +8,6 @@ html, body{
     margin: auto;
     font-family: 'Tangerine', sans-serif;
     line-height: 1.45;
-    color: #5A5A5A;
+    color: #5A5A5A; /* A2FF8C */
+	background-color: A2FF8C;
 }
