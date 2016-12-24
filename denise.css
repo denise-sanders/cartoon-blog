@@ -12,7 +12,7 @@
 
 html, body{
     /*width: 680px;*/
-	width: 62%;
+	width: 72%;
     margin: auto;
     font-family: 'Tangerine', sans-serif;
     line-height: 1.45;
@@ -40,12 +40,20 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #73D1E8;
+	text-align: justify;
+	min-width:500px;
+	
 }
-
+ul:after{
+	/*content: '';*/	
+    display: inline-block;
+    width: 100%;
+}
 li {
-    float: left;
+    display: inline-block;
 	/*border-right: 1px solid #fff;
-	border-left: 1px solid #fff;*/
+	border-left: 1px solid #fff;
+	float: left;*/
 }
 
 li a {
@@ -62,7 +70,7 @@ li a:hover {
     background-color: #777;
 }
 
-li:nth-last-child(-n+2) { /* change the # to however many elements*/
+li:nth-last-child(-n+1) { /* change the # to however many elements*/
 	float: right;
 	background-color: #BD7FFF;
 	/*border-left: 1px solid #fff;
@@ -81,10 +89,14 @@ li:nth-last-child(1) {
 img{
 	width: 95%;
 	height: 95%;
-	padding: 2.5%;
+	padding: 2.5%;*/
 }
 
 #arrow{
 	height: 20px;
 	width: auto;
+}
+
+#caption{
+	font-size: 20px;
 }
