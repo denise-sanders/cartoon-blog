@@ -1,0 +1,12 @@
+/*
+	The best stylesheets are simple.
+*/
+
+html, body{
+    /*width: 680px;*/
+	width: 62%;
+    margin: auto;
+    font-family: 'Tangerine', sans-serif;
+    line-height: 1.45;
+    color: #5A5A5A;
+}
