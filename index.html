@@ -7,19 +7,26 @@
 	<body>
 		<!-- Google Analytics Script: -->
 		<?php include_once("analyticstracking.php") ?>
-		<!-- Google Analytics -->
-
+		<!-- Google Analytics Script. -->
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-WR47Q8N');</script>
+		<!-- End Google Tag Manager -->
+		
+		
 		<div id=comicContainer>
 			<p>Every LaTeX File You Write in College</p>
-			<ul>
-			  <li><a href="default.asp"><!--<img id="arrow" src="img/previous.png">-->Previous</a></li>
-			  <li><a href="news.asp">Next</a></li>
+			<ul id="nav">
+			  <li><a href="#"><!--<img id="arrow" src="img/previous.png">-->Previous</a></li>
+			  <li><a href="#">Next</a></li>
 			  <!--<li><a href="about.asp"></a></li>--> <!-- todo: make about -->
 			  <li><a href="mailto:dairvin9@gmail.com?Subject=Hello%20from%20the%20web">Contact Me</a></li>
 			</ul>
-			<img src="content/format2.png" alt="sample">
-			<p id=caption>Unfortunately, the correct solution is to learn LaTeX.</p>
+			<img src="content/1.png" alt="sample">
+			<p id=caption>The correct solution is to learn LaTeX.</p>
 		</div>	
-	</body>
-	
+	</body>	
 </html>	
